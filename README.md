@@ -4,6 +4,10 @@
 
 This macOS workflow (`Create Encrypted Image.workflow`) is an Automator Quick Action, which adds a context popup on folders in Finder. When activated, the workflow launches a new Terminal window that helps users encrypt a folder and its contents. The resulting DMG disk image requires a password to unlock.
 
+## TODO:
+
+- [ ] Add notification upon successful completion ((inspiration)[https://apple.stackexchange.com/a/385167/475305])
+
 ## Installation
 
 |   |   |
