@@ -4,7 +4,7 @@
 
 This macOS workflow (`Create Encrypted Image.workflow`) is an Automator Quick Action, which adds a context popup on folders in Finder. When activated, the workflow launches a new Terminal window that helps users encrypt a folder and its contents. The resulting DMG disk image requires a password to unlock.
 
-## How to install it
+## Installation
 
 |   |   |
 | - | - |
@@ -14,6 +14,10 @@ This macOS workflow (`Create Encrypted Image.workflow`) is an Automator Quick Ac
 | 4. Confirm installation, by right clicking a folder, and checking that Quick Actions now contains the workflow | <img width="538" alt="Confirm quick action enabled" src="https://github.com/fraune/CreateEncryptedImage/assets/52302810/27572c24-e352-4e08-b468-d0e1686d83d9"> |
 | 5. A Terminal window will prompt for `sudo`, which is your Mac admin's password. It is required to run the command.<br><br>6. You will be prompted for a password to encrypt the folder with. This is distinct from the `sudo` password, and will be required to decrypt the DMG. | <img width="711" alt="Encrypting a folder" src="https://github.com/fraune/CreateEncryptedImage/assets/52302810/acc6622e-0f20-4dc2-8cd5-17fdc0a4f42f"> |
 | 7. You should see a new file appear at the same location as the folder you encrypted. Double-click it, then enter your password to decrypt it. | <img width="600" alt="Decrypt the image" src="https://github.com/fraune/CreateEncryptedImage/assets/52302810/2de7843d-31b1-4796-a377-51556b590c48"> |
+
+## Uninstallation
+
+The workflow installs under `~/Library/Services`. Just delete `Create Encrypted Image.workflow` from there and it's all gone!
 
 ## Easier sudo
 
