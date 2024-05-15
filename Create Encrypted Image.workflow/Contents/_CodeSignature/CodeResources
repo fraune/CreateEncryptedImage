@@ -15,11 +15,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hvsRmLQw97pyIau0Kg0NzCECWiA=
+			arBROzgj6ijyPfbdd921agCpZ5Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			+DMV6UkxLrPIm56ZsApX+H7YNkRFOsVSqBSXxuwdCEo=
+			ERyvbXJ4ydV7cBMm0ttGGls0OAIszX8SxOwo1R6qQlg=
 			</data>
 		</dict>
 		<key>QuickLook/Thumbnail.png</key>
@@ -48,7 +48,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			jlI2rE5FegNgmODm/BGRqsMI8q0=
+			tuNa67RRyzpenii1KbdzDfGYo3U=
 			</data>
 			<key>requirement</key>
 			<string>identifier document and anchor apple generic and certificate leaf[subject.CN] = "Apple Development: Brandon Fraune (XLGA8FKST6)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>

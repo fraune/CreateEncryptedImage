@@ -56,7 +56,7 @@
     
     tell application "Terminal"
         activate
-        do script "sudo hdiutil create -size 20mb -fs apfs -encryption AES-256 " &amp; quoted form of folderPath &amp; " -srcfolder " &amp; quoted form of folderPath &amp; "; exit"
+        do script "sudo hdiutil create -size 20mb -fs apfs -encryption AES-256 '" &amp; folderPath &amp; "' -srcfolder '" &amp; folderPath &amp; "'; exit"
     end tell
     
     return input
