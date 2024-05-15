@@ -4,10 +4,6 @@
 
 This macOS workflow (`Create Encrypted Image.workflow`) is an Automator Quick Action, which adds a context popup on folders in Finder. When activated, the workflow launches a new Terminal window that helps users encrypt a folder and its contents. The resulting DMG disk image requires a password to unlock.
 
-## TODO:
-
-- [ ] Add notification upon successful completion ([inspiration](https://apple.stackexchange.com/a/385167/475305))
-
 ## Installation
 
 |   |   |
@@ -72,3 +68,7 @@ Notes:
 - My understanding is that `-size 20mb` just sets the initial size. The resulting DMG will be more or less, depending on what you encrypt.
 - `-fs apfs -encryption AES-256` sets the filesystem type and encryption type to use. Last I checked, AES-256 is the best encryption supported by `hdiutil` in this context.
 - The `folderPath` variable is used twice: as the input path, and as the output path. The output path will automatically append `.dmg` onto the end of `folderPath` when the command completes.
+
+## TODO:
+
+- [ ] Add notification upon successful completion ([inspiration](https://apple.stackexchange.com/a/385167/475305))
