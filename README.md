@@ -6,7 +6,7 @@ This macOS workflow (`Create Encrypted Image.workflow`) is an Automator Quick Ac
 
 ## TODO:
 
-- [ ] Add notification upon successful completion ((inspiration)[https://apple.stackexchange.com/a/385167/475305])
+- [ ] Add notification upon successful completion ([inspiration](https://apple.stackexchange.com/a/385167/475305))
 
 ## Installation
 
